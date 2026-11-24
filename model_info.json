@@ -1,0 +1,52 @@
+{
+    "model_name": "Random Forest",
+    "features": [
+        "Age",
+        "Income",
+        "LoanAmount",
+        "CreditScore",
+        "MonthsEmployed",
+        "NumCreditLines",
+        "InterestRate",
+        "LoanTerm",
+        "DTIRatio",
+        "Education",
+        "EmploymentType",
+        "MaritalStatus",
+        "HasMortgage",
+        "HasDependents",
+        "LoanPurpose",
+        "HasCoSigner",
+        "LoanToIncomeRatio",
+        "MonthlyIncome",
+        "EstimatedMonthlyPrincipal"
+    ],
+    "numerical_features": [
+        "Age",
+        "Income",
+        "LoanAmount",
+        "CreditScore",
+        "MonthsEmployed",
+        "NumCreditLines",
+        "InterestRate",
+        "LoanTerm",
+        "DTIRatio",
+        "LoanToIncomeRatio",
+        "MonthlyIncome",
+        "EstimatedMonthlyPrincipal"
+    ],
+    "categorical_features": [
+        "Education",
+        "EmploymentType",
+        "MaritalStatus",
+        "HasMortgage",
+        "HasDependents",
+        "LoanPurpose",
+        "HasCoSigner"
+    ],
+    "cv_f1_score": 0.3447170531247952,
+    "test_accuracy": 0.7383395339729782,
+    "test_f1_score": 0.35234818009984004,
+    "test_roc_auc": 0.7520039311008638,
+    "sklearn_version": "1.6.1"
+}
